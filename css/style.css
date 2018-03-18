@@ -1,0 +1,248 @@
+body, html{
+    height: 100%;
+    font-family: 'Alegreya', serif;
+}
+@media (max-width: 768px){
+    #header{
+        text-align: center;
+    }
+    #social{
+        text-align: center;
+    }
+    #social hr{
+        margin :8% auto;
+    }
+    #who hr {
+        margin: 8% auto;
+    }
+    #who{
+        text-align: center;
+    }
+    #who img{
+        margin-top: 15%;
+    }
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+      }
+    #footer{
+        text-align: center;
+    }
+}
+@media (max-width: 600px){
+    .modal-dialog {
+        position:absolute;
+        top:50% !important;
+        transform: translate(0, -50%) !important;
+        -ms-transform: translate(0, -50%) !important;
+        -webkit-transform: translate(0, -50%) !important;
+        margin:auto 5%;
+        width:90%;
+        height:60%;
+      }
+}
+.navbar{
+    background-color: rgba(21,31,33,0.5);
+    border-bottom: 1px solid #dedede;
+    font-family: 'Alegreya', serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #d1d1d1;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-brand{
+    color: #d1d1d1;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+/*header*/
+#header{
+    background: url('/images/milky-way-2695569_1920.jpg') center center;
+    background-size: cover;
+    height: 100%; 
+    /* background-color: #2196F3; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#header img {
+    padding: 0 0 20px 0;
+    width: 80%;
+}
+
+ #header .header-right{
+    /* background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px; */
+    vertical-align: top;
+} 
+
+#header .fa {
+    margin: 5% 0;
+}
+
+#icc {
+    color: #fff;   
+}
+#icc:hover {
+    color: #ccc;   
+}
+/*SOCIAL*/
+#social{
+    padding: 4.25rem 0;
+    background-color: #fff;
+    /* border-bottom: #BBDEFB solid 2px; */
+}
+
+#social .list-inline-item a  {
+    /* font-size:1.5em; */
+    color:#be2835;
+    border:2px solid #be2835;
+    width:60px;
+    height:60px;
+    border-radius:30%;
+    text-align:center;
+    padding:20% 20%;
+    margin-top:30px;
+    transition:all 0.4s ease-in-out;
+    text-align: center;
+}
+#social .list-inline-item a:hover{
+    color:#fff;
+    background: #be2835;
+}
+#cloud {
+    vertical-align : center;
+}
+#sociallink{
+    text-align: center;
+}
+/* end social */
+/* who */
+#who{
+    padding: 5rem 0;
+    background-color: #E3F2FD;
+}
+#cloud {
+    text-align: center;
+}
+/* end who */
+/* work */
+.card{
+    margin: 1rem;
+}
+ #hp {
+    width: 9rem;
+    height: 9rem;
+} 
+#dell{
+    width: 9rem;
+    height: 9rem;
+}
+#work work-img{
+    text-align: center;
+}
+
+/* end work */
+/* modal */
+.modal {
+    text-align: justify;
+  }
+  .modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+
+  
+  /* .modal-content {
+    min-height:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+  }
+  .modal-body {
+    position:absolute;
+    top:45px; 
+    bottom:45px;  
+    left:0;
+    right:0;
+    overflow-y:auto;
+  }
+  .modal-footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+  } */
+  
+  /* .modal.fade .modal-dialog {
+    transform: translate(0, -100%);
+  } */
+/* end modal */
+
+/* work */
+#work{
+    padding: 5rem 0;
+}
+#work .work-img{
+    position: relative;
+}
+
+/* #work .work-img .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/eye.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.3 ease-in-out;
+}
+
+#work .work-img .img-overlay:hover{
+    opacity: 1;
+    z-index: 1;
+} */
+/* end work */
+/* Why */
+#why{
+    padding: 5rem 0;
+    background-color: #E3F2FD;
+}
+/* end Why */
+/* Contact */
+#contact{
+    padding: 5rem 0;
+}  
+/* end contact */
+/* footer */
+#footer{
+    padding: 2rem 0;
+    background-color: #1565C0;
+    color: #fff;
+}
+#footer a{
+    color:white;
+}
+
+#footer i{
+    padding: 0 15px;
+}
+/* end footer */
